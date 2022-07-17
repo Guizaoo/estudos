@@ -52,12 +52,12 @@
 
 // throw 
 
-function sayMyName(name = ''){
-  if( name === ''){
-    throw 'Nome é obrigatório'
+function sayMyName(name){
+  if(!name){
+      throw 'Nome é obrigatório'
   }
 
-  console.log('depoisdo erro')
+  console.log('depois do erro')
 }
 
 
