@@ -4,9 +4,10 @@
 
 // function statement
 function createPhrases() {
-    console.log('estudar é muito bom')
-    console.log('Paciência e persistência') 
-    console.log('Rvisão é mãe do aprendizado')         
+    const phrases = ['Estudar é muito bom', 'Paciência e persistência', 'Revisão é mãe do aprendizado']
+    phrases.map(phrase => (
+        console.log(phrase)
+    )) 
 }
 
 // executar a função
